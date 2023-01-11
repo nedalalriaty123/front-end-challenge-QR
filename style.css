@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Montserrat:wght@300;400;600;700&family=Outfit:wght@400;700&family=Tajawal:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    width: 100%;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d5e1ef;
+    height: 100vh;
+}
+
+.card{
+    width: 324px;
+    height: 496px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 16px;
+}
+
+.card .imgae{
+    overflow: hidden;
+}
+.card .imgae img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.card .info{
+    text-align: center;
+    padding: 18px;
+    margin-top: 12px;
+}
+
+.card .info h1{
+    color: hsl(218, 44%, 22%);
+font-size: 20px;
+}
+
+.card .info p{
+color: #797c83;
+font-size: 15px;
+margin-top: 12px;
+line-height: 1.2;
+}
